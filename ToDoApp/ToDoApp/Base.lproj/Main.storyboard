@@ -123,10 +123,9 @@
                                     <action selector="addTaskButton:" destination="VIx-Td-rnX" eventType="touchUpInside" id="ZB2-az-69c"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo.png" highlightedImage="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z8C-V7-Lxt">
-                                <rect key="frame" x="128" y="103" width="112" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" highlightedImage="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z8C-V7-Lxt">
+                                <rect key="frame" x="128" y="105" width="109" height="74"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="119" id="Hag-zn-ReL"/>
                                     <constraint firstAttribute="width" constant="109" id="OEX-6s-g5o"/>
                                     <constraint firstAttribute="height" constant="74" id="lDH-d5-8bI"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="szy-8m-nNy"/>
@@ -138,13 +137,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="y56-Nu-roK">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="❁" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIp-q4-taA">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="❁" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIp-q4-taA">
                                                 <rect key="frame" x="0.0" y="0.0" width="22" height="31"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay-Regular" family=".SF NS Display" pointSize="26"/>
                                                 <color key="textColor" red="0.83293718099594116" green="0.065581880509853363" blue="0.19161418080329895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="important" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2j-by-Ake">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="important" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2j-by-Ake">
                                                 <rect key="frame" x="23" y="0.0" width="117" height="31"/>
                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="26"/>
                                                 <color key="textColor" red="0.83293718099594116" green="0.065581880509853363" blue="0.19161418080329895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -179,7 +178,6 @@
                             <constraint firstItem="mwF-qG-Uio" firstAttribute="top" secondItem="LK4-tS-W4a" secondAttribute="bottom" id="lTu-C4-EoL"/>
                             <constraint firstItem="Z8C-V7-Lxt" firstAttribute="top" secondItem="LK4-tS-W4a" secondAttribute="bottom" constant="41" id="mto-hR-UPL"/>
                             <constraint firstItem="irb-Pf-40s" firstAttribute="top" secondItem="mwF-qG-Uio" secondAttribute="bottom" id="nsL-vz-eHU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Z8C-V7-Lxt" secondAttribute="trailing" constant="117" id="oBB-xj-Uq5"/>
                             <constraint firstItem="jHt-OJ-UHX" firstAttribute="top" secondItem="Z8C-V7-Lxt" secondAttribute="bottom" constant="80" id="vlg-wH-RF4"/>
                             <constraint firstItem="Z8C-V7-Lxt" firstAttribute="leading" secondItem="rie-c3-3hg" secondAttribute="leadingMargin" constant="112" id="wcx-AE-Gle"/>
                             <constraint firstItem="mwF-qG-Uio" firstAttribute="leading" secondItem="rie-c3-3hg" secondAttribute="leading" id="xOb-BN-WnL"/>
@@ -212,23 +210,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x9U-dR-85G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="402" y="139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="tn2-aO-pXT">
-            <objects>
-                <viewController id="ofa-Es-cCi" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tMc-Di-OlJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZaE-nl-8U0"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="GWh-je-OuT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0XE-pT-Qzv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
