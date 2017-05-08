@@ -8,25 +8,40 @@
 
 import UIKit
 
-class AddTaskViewController: UIViewController {
 
+
+class AddTaskViewController: UIViewController, UITextFieldDelegate {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
-    @IBOutlet weak var addTask: UITextField!
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true);
+        return false;
+    }
+    
+    @IBOutlet weak var addTaskText: UITextField!
     
     @IBOutlet weak var isImportantSwitch: UISwitch!
     
-    
-    @IBOutlet weak var addTaskButton: UIButton!
-    
-    
-    @IBAction func addTaskAction(_ sender: Any) {
-    }
-    
-    override func viewDidLoad() {
+    @IBAction func addTaskButton(_ sender: UIButton) {
         
-
-        // Do any additional setup after loading the view.
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    let task = Task(context: context)
+    task.taskName = addTaskText.text!
+    task.isImportant = isImportantSwitch.isOn
+     //Save the data
+        
+     (UIApplication.shared.delegate as! AppDelegate).saveContext()
+      
+     navigationController!.popViewController(animated: true)
+        
+        
     }
+    
+    
+    
 
    
 }

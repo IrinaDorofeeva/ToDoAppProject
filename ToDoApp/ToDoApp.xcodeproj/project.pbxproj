@@ -7,25 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045A62CD1EC02F6400292972 /* AddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B01EC02F6400292972 /* AddButton.png */; };
+		045A62CE1EC02F6400292972 /* AddButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B11EC02F6400292972 /* AddButton@2x.png */; };
+		045A62CF1EC02F6400292972 /* AddButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B21EC02F6400292972 /* AddButton@3x.png */; };
+		045A62D01EC02F6400292972 /* addTextfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B31EC02F6400292972 /* addTextfield.png */; };
+		045A62D11EC02F6400292972 /* addTextfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B41EC02F6400292972 /* addTextfield@2x.png */; };
+		045A62D21EC02F6400292972 /* addTextfield@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B51EC02F6400292972 /* addTextfield@3x.png */; };
+		045A62D31EC02F6400292972 /* backButton@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B61EC02F6400292972 /* backButton@1x.png */; };
+		045A62D41EC02F6400292972 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B71EC02F6400292972 /* backButton@2x.png */; };
+		045A62D51EC02F6400292972 /* backButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B81EC02F6400292972 /* backButton@3x.png */; };
+		045A62D61EC02F6400292972 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62B91EC02F6400292972 /* Background.png */; };
+		045A62D71EC02F6400292972 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BA1EC02F6400292972 /* Background@2x.png */; };
+		045A62D81EC02F6400292972 /* Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BB1EC02F6400292972 /* Background@3x.png */; };
+		045A62D91EC02F6400292972 /* Group 3@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BC1EC02F6400292972 /* Group 3@1x.png */; };
+		045A62DA1EC02F6400292972 /* Group 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BD1EC02F6400292972 /* Group 3@2x.png */; };
+		045A62DB1EC02F6400292972 /* importantLabel@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BE1EC02F6400292972 /* importantLabel@1x.png */; };
+		045A62DC1EC02F6400292972 /* importantLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62BF1EC02F6400292972 /* importantLabel@2x.png */; };
+		045A62DD1EC02F6400292972 /* importantLabel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C01EC02F6400292972 /* importantLabel@3x.png */; };
+		045A62DE1EC02F6400292972 /* iPhone 7@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C11EC02F6400292972 /* iPhone 7@1x.png */; };
+		045A62DF1EC02F6400292972 /* iPhone 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C21EC02F6400292972 /* iPhone 7@2x.png */; };
+		045A62E01EC02F6400292972 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C31EC02F6400292972 /* Logo.png */; };
+		045A62E11EC02F6400292972 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C41EC02F6400292972 /* Logo@2x.png */; };
+		045A62E21EC02F6400292972 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C51EC02F6400292972 /* Logo@3x.png */; };
+		045A62E31EC02F6400292972 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C61EC02F6400292972 /* plusButton.png */; };
+		045A62E41EC02F6400292972 /* plusButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C71EC02F6400292972 /* plusButton@2x.png */; };
+		045A62E51EC02F6400292972 /* plusButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C81EC02F6400292972 /* plusButton@3x.png */; };
+		045A62E61EC02F6400292972 /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62C91EC02F6400292972 /* smallLogo.png */; };
+		045A62E71EC02F6400292972 /* smallLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62CA1EC02F6400292972 /* smallLogo@2x.png */; };
+		045A62E81EC02F6400292972 /* smallLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045A62CB1EC02F6400292972 /* smallLogo@3x.png */; };
+		045A62E91EC02F6400292972 /* designToDo.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 045A62CC1EC02F6400292972 /* designToDo.sketch */; };
 		04BA5FFC1EB3D47A0074F1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA5FFB1EB3D47A0074F1D1 /* AppDelegate.swift */; };
 		04BA5FFE1EB3D47A0074F1D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA5FFD1EB3D47A0074F1D1 /* ViewController.swift */; };
 		04BA60011EB3D47B0074F1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA5FFF1EB3D47B0074F1D1 /* Main.storyboard */; };
-		04BA60041EB3D47B0074F1D1 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BA60021EB3D47B0074F1D1 /* ToDoApp.xcdatamodeld */; };
 		04BA60061EB3D47B0074F1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA60051EB3D47B0074F1D1 /* Assets.xcassets */; };
 		04BA60091EB3D47B0074F1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA60071EB3D47B0074F1D1 /* LaunchScreen.storyboard */; };
 		04BA60111EB3D6000074F1D1 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA60101EB3D6000074F1D1 /* AddTaskViewController.swift */; };
+		04BA60141EB3EA2A0074F1D1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BA60121EB3EA2A0074F1D1 /* Model.xcdatamodeld */; };
+		04FAB4FB1EC0414400189FB5 /* redAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB4F81EC0414400189FB5 /* redAdd.png */; };
+		04FAB4FC1EC0414400189FB5 /* redAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB4F91EC0414400189FB5 /* redAdd@2x.png */; };
+		04FAB4FD1EC0414400189FB5 /* redAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB4FA1EC0414400189FB5 /* redAdd@3x.png */; };
+		04FAB5011EC0457000189FB5 /* redSimpleAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB4FE1EC0457000189FB5 /* redSimpleAdd.png */; };
+		04FAB5021EC0457000189FB5 /* redSimpleAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB4FF1EC0457000189FB5 /* redSimpleAdd@2x.png */; };
+		04FAB5031EC0457000189FB5 /* redSimpleAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB5001EC0457000189FB5 /* redSimpleAdd@3x.png */; };
+		04FAB5071EC046F900189FB5 /* backFlowers.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB5041EC046F900189FB5 /* backFlowers.png */; };
+		04FAB5081EC046F900189FB5 /* backFlowers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB5051EC046F900189FB5 /* backFlowers@2x.png */; };
+		04FAB5091EC046F900189FB5 /* backFlowers@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FAB5061EC046F900189FB5 /* backFlowers@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045A62B01EC02F6400292972 /* AddButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddButton.png; sourceTree = "<group>"; };
+		045A62B11EC02F6400292972 /* AddButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddButton@2x.png"; sourceTree = "<group>"; };
+		045A62B21EC02F6400292972 /* AddButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddButton@3x.png"; sourceTree = "<group>"; };
+		045A62B31EC02F6400292972 /* addTextfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addTextfield.png; sourceTree = "<group>"; };
+		045A62B41EC02F6400292972 /* addTextfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addTextfield@2x.png"; sourceTree = "<group>"; };
+		045A62B51EC02F6400292972 /* addTextfield@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addTextfield@3x.png"; sourceTree = "<group>"; };
+		045A62B61EC02F6400292972 /* backButton@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@1x.png"; sourceTree = "<group>"; };
+		045A62B71EC02F6400292972 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		045A62B81EC02F6400292972 /* backButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@3x.png"; sourceTree = "<group>"; };
+		045A62B91EC02F6400292972 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		045A62BA1EC02F6400292972 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		045A62BB1EC02F6400292972 /* Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@3x.png"; sourceTree = "<group>"; };
+		045A62BC1EC02F6400292972 /* Group 3@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3@1x.png"; sourceTree = "<group>"; };
+		045A62BD1EC02F6400292972 /* Group 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3@2x.png"; sourceTree = "<group>"; };
+		045A62BE1EC02F6400292972 /* importantLabel@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "importantLabel@1x.png"; sourceTree = "<group>"; };
+		045A62BF1EC02F6400292972 /* importantLabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "importantLabel@2x.png"; sourceTree = "<group>"; };
+		045A62C01EC02F6400292972 /* importantLabel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "importantLabel@3x.png"; sourceTree = "<group>"; };
+		045A62C11EC02F6400292972 /* iPhone 7@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7@1x.png"; sourceTree = "<group>"; };
+		045A62C21EC02F6400292972 /* iPhone 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 7@2x.png"; sourceTree = "<group>"; };
+		045A62C31EC02F6400292972 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		045A62C41EC02F6400292972 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		045A62C51EC02F6400292972 /* Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@3x.png"; sourceTree = "<group>"; };
+		045A62C61EC02F6400292972 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusButton.png; sourceTree = "<group>"; };
+		045A62C71EC02F6400292972 /* plusButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plusButton@2x.png"; sourceTree = "<group>"; };
+		045A62C81EC02F6400292972 /* plusButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plusButton@3x.png"; sourceTree = "<group>"; };
+		045A62C91EC02F6400292972 /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallLogo.png; sourceTree = "<group>"; };
+		045A62CA1EC02F6400292972 /* smallLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallLogo@2x.png"; sourceTree = "<group>"; };
+		045A62CB1EC02F6400292972 /* smallLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallLogo@3x.png"; sourceTree = "<group>"; };
+		045A62CC1EC02F6400292972 /* designToDo.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = designToDo.sketch; sourceTree = "<group>"; };
 		04BA5FF81EB3D47A0074F1D1 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BA5FFB1EB3D47A0074F1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BA5FFD1EB3D47A0074F1D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04BA60001EB3D47B0074F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04BA60031EB3D47B0074F1D1 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 		04BA60051EB3D47B0074F1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BA60081EB3D47B0074F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BA600A1EB3D47B0074F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BA60101EB3D6000074F1D1 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		04BA60131EB3EA2A0074F1D1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		04FAB4F81EC0414400189FB5 /* redAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redAdd.png; sourceTree = "<group>"; };
+		04FAB4F91EC0414400189FB5 /* redAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redAdd@2x.png"; sourceTree = "<group>"; };
+		04FAB4FA1EC0414400189FB5 /* redAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redAdd@3x.png"; sourceTree = "<group>"; };
+		04FAB4FE1EC0457000189FB5 /* redSimpleAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redSimpleAdd.png; sourceTree = "<group>"; };
+		04FAB4FF1EC0457000189FB5 /* redSimpleAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redSimpleAdd@2x.png"; sourceTree = "<group>"; };
+		04FAB5001EC0457000189FB5 /* redSimpleAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redSimpleAdd@3x.png"; sourceTree = "<group>"; };
+		04FAB5041EC046F900189FB5 /* backFlowers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backFlowers.png; sourceTree = "<group>"; };
+		04FAB5051EC046F900189FB5 /* backFlowers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backFlowers@2x.png"; sourceTree = "<group>"; };
+		04FAB5061EC046F900189FB5 /* backFlowers@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backFlowers@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +136,50 @@
 			children = (
 				04BA5FFB1EB3D47A0074F1D1 /* AppDelegate.swift */,
 				04BA5FFD1EB3D47A0074F1D1 /* ViewController.swift */,
-				04BA5FFF1EB3D47B0074F1D1 /* Main.storyboard */,
 				04BA60101EB3D6000074F1D1 /* AddTaskViewController.swift */,
+				04BA5FFF1EB3D47B0074F1D1 /* Main.storyboard */,
+				04BA60121EB3EA2A0074F1D1 /* Model.xcdatamodeld */,
 				04BA60051EB3D47B0074F1D1 /* Assets.xcassets */,
 				04BA60071EB3D47B0074F1D1 /* LaunchScreen.storyboard */,
+				045A62B01EC02F6400292972 /* AddButton.png */,
+				045A62B11EC02F6400292972 /* AddButton@2x.png */,
+				045A62B21EC02F6400292972 /* AddButton@3x.png */,
+				04FAB4F81EC0414400189FB5 /* redAdd.png */,
+				04FAB4F91EC0414400189FB5 /* redAdd@2x.png */,
+				04FAB4FA1EC0414400189FB5 /* redAdd@3x.png */,
+				045A62B31EC02F6400292972 /* addTextfield.png */,
+				045A62B41EC02F6400292972 /* addTextfield@2x.png */,
+				045A62B51EC02F6400292972 /* addTextfield@3x.png */,
+				045A62B61EC02F6400292972 /* backButton@1x.png */,
+				045A62B71EC02F6400292972 /* backButton@2x.png */,
+				045A62B81EC02F6400292972 /* backButton@3x.png */,
+				045A62B91EC02F6400292972 /* Background.png */,
+				045A62BA1EC02F6400292972 /* Background@2x.png */,
+				045A62BB1EC02F6400292972 /* Background@3x.png */,
+				045A62BC1EC02F6400292972 /* Group 3@1x.png */,
+				045A62BD1EC02F6400292972 /* Group 3@2x.png */,
+				045A62BE1EC02F6400292972 /* importantLabel@1x.png */,
+				045A62BF1EC02F6400292972 /* importantLabel@2x.png */,
+				045A62C01EC02F6400292972 /* importantLabel@3x.png */,
+				045A62C11EC02F6400292972 /* iPhone 7@1x.png */,
+				04FAB5041EC046F900189FB5 /* backFlowers.png */,
+				04FAB5051EC046F900189FB5 /* backFlowers@2x.png */,
+				04FAB5061EC046F900189FB5 /* backFlowers@3x.png */,
+				045A62C21EC02F6400292972 /* iPhone 7@2x.png */,
+				045A62C31EC02F6400292972 /* Logo.png */,
+				045A62C41EC02F6400292972 /* Logo@2x.png */,
+				04FAB4FE1EC0457000189FB5 /* redSimpleAdd.png */,
+				04FAB4FF1EC0457000189FB5 /* redSimpleAdd@2x.png */,
+				04FAB5001EC0457000189FB5 /* redSimpleAdd@3x.png */,
+				045A62C51EC02F6400292972 /* Logo@3x.png */,
+				045A62C61EC02F6400292972 /* plusButton.png */,
+				045A62C71EC02F6400292972 /* plusButton@2x.png */,
+				045A62C81EC02F6400292972 /* plusButton@3x.png */,
+				045A62C91EC02F6400292972 /* smallLogo.png */,
+				045A62CA1EC02F6400292972 /* smallLogo@2x.png */,
+				045A62CB1EC02F6400292972 /* smallLogo@3x.png */,
+				045A62CC1EC02F6400292972 /* designToDo.sketch */,
 				04BA600A1EB3D47B0074F1D1 /* Info.plist */,
-				04BA60021EB3D47B0074F1D1 /* ToDoApp.xcdatamodeld */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -129,9 +243,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FAB5021EC0457000189FB5 /* redSimpleAdd@2x.png in Resources */,
 				04BA60091EB3D47B0074F1D1 /* LaunchScreen.storyboard in Resources */,
+				045A62E11EC02F6400292972 /* Logo@2x.png in Resources */,
+				045A62D01EC02F6400292972 /* addTextfield.png in Resources */,
+				045A62E61EC02F6400292972 /* smallLogo.png in Resources */,
+				045A62E51EC02F6400292972 /* plusButton@3x.png in Resources */,
+				04FAB5011EC0457000189FB5 /* redSimpleAdd.png in Resources */,
+				045A62D31EC02F6400292972 /* backButton@1x.png in Resources */,
+				045A62D81EC02F6400292972 /* Background@3x.png in Resources */,
+				045A62D11EC02F6400292972 /* addTextfield@2x.png in Resources */,
+				04FAB5081EC046F900189FB5 /* backFlowers@2x.png in Resources */,
+				045A62DB1EC02F6400292972 /* importantLabel@1x.png in Resources */,
+				045A62D61EC02F6400292972 /* Background.png in Resources */,
+				045A62DE1EC02F6400292972 /* iPhone 7@1x.png in Resources */,
+				04FAB4FD1EC0414400189FB5 /* redAdd@3x.png in Resources */,
+				045A62D51EC02F6400292972 /* backButton@3x.png in Resources */,
+				045A62CD1EC02F6400292972 /* AddButton.png in Resources */,
+				045A62E31EC02F6400292972 /* plusButton.png in Resources */,
 				04BA60061EB3D47B0074F1D1 /* Assets.xcassets in Resources */,
+				04FAB5091EC046F900189FB5 /* backFlowers@3x.png in Resources */,
+				045A62D71EC02F6400292972 /* Background@2x.png in Resources */,
+				045A62DC1EC02F6400292972 /* importantLabel@2x.png in Resources */,
+				045A62E91EC02F6400292972 /* designToDo.sketch in Resources */,
+				04FAB4FC1EC0414400189FB5 /* redAdd@2x.png in Resources */,
+				045A62E21EC02F6400292972 /* Logo@3x.png in Resources */,
+				045A62D91EC02F6400292972 /* Group 3@1x.png in Resources */,
+				04FAB4FB1EC0414400189FB5 /* redAdd.png in Resources */,
+				045A62D41EC02F6400292972 /* backButton@2x.png in Resources */,
+				045A62DA1EC02F6400292972 /* Group 3@2x.png in Resources */,
+				045A62E71EC02F6400292972 /* smallLogo@2x.png in Resources */,
 				04BA60011EB3D47B0074F1D1 /* Main.storyboard in Resources */,
+				045A62E81EC02F6400292972 /* smallLogo@3x.png in Resources */,
+				045A62CE1EC02F6400292972 /* AddButton@2x.png in Resources */,
+				045A62E41EC02F6400292972 /* plusButton@2x.png in Resources */,
+				045A62DF1EC02F6400292972 /* iPhone 7@2x.png in Resources */,
+				045A62DD1EC02F6400292972 /* importantLabel@3x.png in Resources */,
+				045A62E01EC02F6400292972 /* Logo.png in Resources */,
+				045A62CF1EC02F6400292972 /* AddButton@3x.png in Resources */,
+				045A62D21EC02F6400292972 /* addTextfield@3x.png in Resources */,
+				04FAB5071EC046F900189FB5 /* backFlowers.png in Resources */,
+				04FAB5031EC0457000189FB5 /* redSimpleAdd@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +296,8 @@
 			files = (
 				04BA5FFE1EB3D47A0074F1D1 /* ViewController.swift in Sources */,
 				04BA60111EB3D6000074F1D1 /* AddTaskViewController.swift in Sources */,
-				04BA60041EB3D47B0074F1D1 /* ToDoApp.xcdatamodeld in Sources */,
 				04BA5FFC1EB3D47A0074F1D1 /* AppDelegate.swift in Sources */,
+				04BA60141EB3EA2A0074F1D1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,17 +457,18 @@
 				04BA600F1EB3D47B0074F1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		04BA60021EB3D47B0074F1D1 /* ToDoApp.xcdatamodeld */ = {
+		04BA60121EB3EA2A0074F1D1 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				04BA60031EB3D47B0074F1D1 /* ToDoApp.xcdatamodel */,
+				04BA60131EB3EA2A0074F1D1 /* Model.xcdatamodel */,
 			);
-			currentVersion = 04BA60031EB3D47B0074F1D1 /* ToDoApp.xcdatamodel */;
-			path = ToDoApp.xcdatamodeld;
+			currentVersion = 04BA60131EB3EA2A0074F1D1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
